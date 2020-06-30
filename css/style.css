@@ -49,6 +49,11 @@ section {
   position: relative;
 }
 
+.splash .row {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
 .splash .navigation-brand {
   color: gold;
   font-family: 'Pacifico', cursive;
@@ -65,7 +70,7 @@ section {
 
 .splash .navigation .nav-list li {
   display: inline-block;
-  margin: 0 24px 0 0;
+  margin: 0 16px 0 0;
 }
 
 .splash .navigation .nav-list li a {
@@ -121,41 +126,6 @@ section {
 .splash .splash-inner .btn:hover {
   background-position: 0% 100%;
   color: black;
-}
-
-/*Footer*/
-footer .copyright {
-  text-align: center;
-}
-
-footer .copyright p {
-  font-size: 10px;
-  padding: 16px 0;
-}
-
-footer .media {
-  text-align: center;
-}
-
-footer .media li {
-  display: inline-block;
-  margin: 0 24px 0 0;
-  font-size: 0;
-}
-
-footer .media li i {
-  font-size: 24px;
-  color: white;
-  background-color: black;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  line-height: 30px;
-  transition: all 0.5s;
-}
-
-footer .media li i:hover {
-  transform: scale(1.2);
 }
 
 /* Section 1 */
@@ -245,5 +215,47 @@ footer .media li i:hover {
 
 .foto-wrapper:hover img {
   opacity: 0.4;
+}
+
+/*Footer*/
+footer .copyright {
+  text-align: center;
+}
+
+footer .copyright p {
+  font-size: 10px;
+  padding: 16px 0;
+}
+
+footer .media {
+  text-align: center;
+}
+
+footer .media li {
+  display: inline-block;
+  margin: 0 24px 0 0;
+  font-size: 0;
+}
+
+footer .media li i {
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  transition: all 0.5s;
+}
+
+footer .media li i:hover {
+  transform: scale(1.2);
+}
+
+/* Media */
+@media (min-width: 300px) and (max-width: 768px) {
+  .splash-welcome {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
