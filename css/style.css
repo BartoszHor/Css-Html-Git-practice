@@ -22,18 +22,18 @@ section {
   padding: 60px 0;
 }
 
-.section-title {
+.title {
   text-align: center;
   padding: 0 0 60px 0;
 }
 
-.section-title h2 {
+.title h2 {
   margin: 20px 0 0 0;
   font-family: "Karla", sans-serif;
   font-size: 36px;
 }
 
-.section-title p {
+.title p {
   margin: 0;
   font-weight: 100;
   opacity: 0.6;
@@ -72,6 +72,11 @@ section {
   list-style-type: none;
   text-decoration: none;
   color: #ffffff;
+  transition: all 2s;
+}
+
+.splash .navigation .nav-list li a:hover {
+  color: gold;
 }
 
 .splash .splash-inner {
@@ -177,5 +182,68 @@ footer .media li i:hover {
 
 .services-inner .services-text {
   text-align: center;
+}
+
+/* Section 2 */
+.section-2 {
+  background-color: #F0FFF0;
+}
+
+.section-2 .box-content {
+  text-align: center;
+}
+
+.section-2 .box-content img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  transition: all 2s;
+}
+
+.section-2 .box-content .section-header {
+  margin: 20px 0 0 0;
+  background-color: #ffffff;
+}
+
+.section-2 .box-content p {
+  margin: 0 0 16px 0;
+  background-color: #ffffff;
+}
+
+.foto-wrapper {
+  position: relative;
+  height: 74%;
+}
+
+.foto-wrapper .foto-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  opacity: 0;
+  transition: all 2s;
+  text-align: center;
+}
+
+.foto-wrapper .foto-overlay a {
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  min-width: 110px;
+  margin: 12px auto 0 auto;
+  padding: 16px;
+  border-radius: 5%;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid gold;
+  color: black;
+}
+
+.foto-wrapper:hover .foto-overlay {
+  opacity: 1;
+}
+
+.foto-wrapper:hover img {
+  opacity: 0.4;
 }
 /*# sourceMappingURL=style.css.map */
