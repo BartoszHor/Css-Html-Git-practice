@@ -18,8 +18,8 @@ body {
   color: #2c2c54;
 }
 
-section {
-  padding: 0 60px;
+.section {
+  padding: 60px 0;
 }
 
 /* Splash */
@@ -99,5 +99,40 @@ section {
 .splash .splash-inner .btn:hover {
   background-position: 0% 100%;
   color: black;
+}
+
+/*Footer*/
+footer .copyright {
+  text-align: center;
+}
+
+footer .copyright p {
+  font-size: 10px;
+  padding: 16px 0;
+}
+
+footer .media {
+  text-align: center;
+}
+
+footer .media li {
+  display: inline-block;
+  margin: 0 24px 0 0;
+  font-size: 0;
+}
+
+footer .media li i {
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  transition: all 0.5s;
+}
+
+footer .media li i:hover {
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */
