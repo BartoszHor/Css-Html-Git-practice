@@ -235,10 +235,69 @@ footer {
 }
 
 /* Media */
-
-@media (min-width: 300px) and (max-width: 768px) {
-	.splash-welcome {
+@media (min-width: 250px) and (max-width: 320px) {
+	.splash .splash-inner .splash-welcome {
 		font-size: 12px;
+		}
+	.splash .splash-inner .splash-nice {
+		font-size: 14px;
+		}
+	.splash .navigation .nav-list a {
+		font-size: 7px;
+		}
+	.splash .navigation .nav-list {
+		margin: 24px 0;
+		}
+	.splash .navigation .nav-list li {
+		margin: 0 2px 0 0;
+		}
+	}
+
+@media (min-width: 321px) and (max-width: 600px) {
+	.splash .splash-inner .splash-welcome {
+		font-size: 14px;
+		}
+	.splash .splash-inner .splash-nice {
+		font-size: 16px;
+		}
+	.splash .navigation .nav-list a {
+		font-size: 10px;
+		}
+	.splash .navigation .nav-list li {
+		margin: 0 8px 0 0;
+		}
+	}
+
+@media (min-width: 601px) and (max-width: 850px) {
+	.splash .splash-inner .splash-welcome {
+		font-size: 18px;
+		}
+	.splash .splash-inner .splash-nice {
+		font-size: 22px;
+		}
+	.splash .navigation .nav-list a {
+		font-size: 12px;
+		}
+	.splash .navigation .nav-list {
+		padding: 0 0 0 180px;
+		}
+	}
+
+@media (min-width: 851px) and (max-width: 1100px) {
+	.splash .splash-inner .splash-welcome {
+		font-size: 24px;
+		}
+	.splash .splash-inner .splash-nice {
+		font-size: 30px;
+		}
+	}
+
+	@media (min-width: 340px) and (max-width: 380px) {
+	.splash .navigation .nav-list a {
+		font-size: 10px;
+		}
+	.splash .navigation .nav-list li {
+		margin: 0 0 0 0;
 		}
 	}
 
