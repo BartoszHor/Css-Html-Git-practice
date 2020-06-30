@@ -9,7 +9,7 @@ $font-text: 'Rubik', sans-serif;
 	box-sizing: border-box;
 }
 
-container {
+.container {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 0 20px
@@ -23,10 +23,24 @@ body {
 	color: #2c2c54;
 }
 
-.section {
+section {
 	padding: 60px 0;
 }
 
+.section-title {
+	text-align: center;
+	padding: 0 0 60px 0;
+	h2 {
+		margin: 20px 0 0 0;
+		font-family: $font-header;
+		font-size: 36px;
+	}
+	p {
+		margin: 0;
+		font-weight: 100;
+		opacity: 0.6;
+	}
+}
 /* Splash */
 
 .splash {
@@ -127,6 +141,30 @@ footer {
 				}
 			}
 		}
+	}
+}
+
+/* Section 1 */
+
+.services-inner {
+	text-align: center;
+	.fas {
+		font-size: 36px;
+		color: gold;
+		background-color: #ffffff;
+		height: 40px;
+		line-height: 40px;
+	}
+	.icon-wrapper {
+		width: 70px;
+		height: 70px;
+		line-height: 80px;
+		border-radius: 50%;
+		border: 2px solid gold;
+		margin: 0 auto;
+	}
+	.services-text {
+		text-align: center;
 	}
 }
 
