@@ -1,0 +1,27 @@
+* [33m1d57b4c[m[33m ([m[1;36mHEAD -> [m[1;32manotherDev[m[33m)[m Change class in line 112
+* [33mfe74dac[m Change class in line 112
+[31m|[m * [33mc3fb040[m[33m ([m[1;32mdevSomeone[m[33m)[m Change paragraphs in Jewellery section
+[31m|[m[31m/[m  
+* [33mbc9e849[m Change html of Jewellery
+[32m|[m * [33ma14206d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Fake commit
+[32m|[m[32m/[m  
+[32m|[m * [33m88d8867[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/lodash-4.17.19[m[33m)[m Bump lodash from 4.17.15 to 4.17.19
+[32m|[m[32m/[m  
+* [33m1975ec5[m Solve errors in html
+* [33m5ae7b15[m .
+* [33ma190516[m Add media queries to CSS
+* [33m4dfa4a8[m Add RWD and minor changes in css
+* [33m3406f12[m Add styles to web second section
+* [33m5d49389[m Add html to web second section
+* [33m9ecee6c[m Add styles of web first section
+* [33ma0ecd71[m Add html of web first section
+* [33m37b90a9[m Add styles of web footer section
+* [33mbfe863f[m Add html of web footer section
+* [33m3daecc1[m Add styles of web splash section
+* [33mffb02e4[m Add html of web splash section
+* [33m313ddb1[m Add basic html structure and links
+* [33m9674f4c[m Add empty style files
+* [33m1f0b25e[m Add README file
+* [33mf6fdb04[m Add all NPMs which are on the project
+* [33mef58183[m Add Bootstrap with basic function
+* [33m8979a29[m Add .gitignore file
